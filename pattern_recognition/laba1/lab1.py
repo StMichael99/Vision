@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 
 # open video
 cap = cv2.VideoCapture(0)
@@ -44,6 +43,10 @@ while(cap.isOpened()):
         thickness = 2
         cv2.rectangle(grayBGR, start_point, end_point, color, thickness)
 
+        # drow green line
+        (x1, y1) = (300, 300 )
+        (x2, y2) = (340, 340 )
+        cv2.line(grayBGR, (x1, y1), (x2, y2), (0, 255, 0), thickness)
 
         cv2.imshow('frame 2',grayBGR)
 
