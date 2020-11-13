@@ -22,5 +22,6 @@
 - собираем всю предобработку изображения в одну функцию(preprocess_image)
 - подгружаем видео, достаем из него кадры, делаем предсказания классификаторами. Наслаждаемся.
 
+
 Ссылка на протокол 
 https://docs.google.com/document/d/1seCMi_aEAMIOHwZS98nrGIUxutnmpEbYk-RB4FoBAa4/edit
